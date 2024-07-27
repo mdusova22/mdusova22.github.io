@@ -33,8 +33,8 @@ body{
     background-image: url("pattern.svg");
     background-attachment: fixed;
 }
-.first-sec-container, .about-sec-container, .portfolio-sec-container, .nav-container, .proj-container, 
-.contact-sec-container, .footer-container{
+.first-sec-container, .hakkımda-sec-container, .portfolyom-sec-container, .nav-container, .proj-container, 
+.iletişim-sec-container, .footer-container{
     max-width: 1300px;
     width: 90%;
     margin: 0 auto;  
@@ -273,16 +273,16 @@ nav{
     }
 }
 
-.about-sec{
+.hakkımda-sec{
     padding: 7rem 0;
 }
 
-.about-sec-text{
+.hakkımda-sec-text{
     max-width: 1000px;
     width: 100%;
 }
 
-.about-sec-text .title, .port-title, .contact-title{
+.hakkımda-sec-text .title, .port-title, .iletişim-title{
     display: flex;
     margin-bottom: 2rem;
     max-width: 500px;
@@ -292,25 +292,25 @@ nav{
     gap: 1rem;
 }
 
-.about-sec-text .title .line, .port-title .line, .contact-title .line{
+.hakkımda-sec-text .title .line, .port-title .line, .iletişim-title .line{
     background: silver;
     min-width: 150px;
     height: 1px;
 }
 
-.about-sec-text .title h3, .port-title h3, .contact-title h3{
+.hakkımda-sec-text .title h3, .port-title h3, .iletişim-title h3{
     font-size: 2.5rem;
     font-weight: 500;
     color: silver;
 }
 
-.about-sec-text p{
+.hakkımda-sec-text p{
     font-size: clamp(0.8rem, 0.7347rem + 0.3265vw, 1rem);
     color: var(--paragraphs);
     line-height: 2;
 }
 
-.portfolio-sec{
+.portfolyom-sec{
   padding: 0 0 3rem 0;
 }
 
@@ -414,20 +414,20 @@ nav{
     }
 }
 
-.contact-sec{
+.iletişim-sec{
   padding: 4rem 0;
 }
 
-.contact-sec-container h4{
+.iletişim-sec-container h4{
   font-size: 2rem;
   font-weight: 500;
 }
 
-.about-text, .port-text, .contact-text{
+.hakkımda-text, .port-text, .iletişim-text{
   margin: -2rem 0 1.5rem 0;
 }
 
-.about-text h2, .port-text h2, .contact-text h2{
+.hakkımda-text h2, .port-text h2, .iletişim-text h2{
   font-size: clamp(1.8rem, 1.7347rem + 0.3265vw, 2rem);
 }
 
@@ -436,7 +436,7 @@ nav{
 }
 
 
-.contact-row{
+.iletişim-row{
   width: 100%;
   display: flex;
   gap: 3rem;
@@ -444,7 +444,7 @@ nav{
   justify-content: space-around;
 }
 
-.contact-row form{
+.iletişim-row form{
   max-width: 500px;
   width: 100%;
   display: flex;
@@ -458,7 +458,7 @@ input, textarea{
   border: 2px solid var(--secondary);
 }
 
-.contact-row .email-add, .contact-row .name, .message{
+.iletişim-row .email-add, .iletişim-row .name, .message{
   padding: .5rem;
 }
 .main_div {
@@ -515,7 +515,7 @@ input, textarea{
   font-family: inherit;
  }
 
-.contact-details{
+.iletişim-details{
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -544,7 +544,7 @@ input, textarea{
 }
  @media (max-width: 930px) {
 
-  .contact-row{
+  .iletişim-row{
     margin-top: 3rem;
     flex-direction: column-reverse;
   }
