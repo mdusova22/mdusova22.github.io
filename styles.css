@@ -6,7 +6,7 @@
     --red: #ed2024;
     --paragraphs: #1E1E1E;
 }
-.dark-mode body{
+.dark-mode active-nav{
 	background: #19191A;
 	color: #D5DEEC;
 	transition: .2s !important;
