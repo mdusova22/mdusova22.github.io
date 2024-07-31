@@ -112,3 +112,29 @@
 	};
 
 }));
+
+jQuery('body').on('click', '#gece-modu', function (event) {
+	var main = $(this);
+	if ($("#gece-modu a i").hasClass("fa-moon")) {
+		$("#gece-modu a i").removeClass("fa-moon").addClass("fa-sun");
+		$("body").addClass("dark-mode");
+		$.cookie("mod", "gece", {
+			path: '/'
+		});
+	} else {
+		$("#gece-modu a i").removeClass("fa-sun").addClass("fa-moon");
+		$("body").removeClass("dark-mode");
+		$.cookie("mod", "gunduz", {
+			path: '/'
+		});
+	}
+});
+
+var mod = $.cookie("mod");
+if (mod == "gece") {
+	$("body").addClass("dark-mode");
+	$("#gece-modu a i").removeClass("fa-moon").addClass("fa-sun");
+} else if (mod == "gunduz") {
+	$("body").removeClass("dark-mode");
+	$("#gece-modu a i").removeClass("fa-sun").addClass("fa-moon");
+}
