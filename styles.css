@@ -210,45 +210,15 @@ nav{
     background-color: var(--secondary);
    }
 
-.swiper {  
-    width: 100%;
-    cursor: grab;
-}
 
 .swiper-slide img{
-    position: relative;
+  position: relative;
     width: 100%;
-    height: 520px;
+    height: 420px;
     object-fit: cover;
-    filter: brightness(40%);
+    filter: brightness(100%);
 }
 
-.slider-text{
-    position: absolute;
-    top: 50%;  
-    left: 50%; 
-    transform: translate(-50%, -50%);
-}
-
-#mid-text3{
-    -webkit-text-stroke: 3px rgb(255, 217, 0); 
-}
-
-#mid-text1 {
-    -webkit-text-stroke: 3px #0096c7;
-}
-
-#mid-text2{
-    -webkit-text-stroke: 3px #52b69a;
-}
-
-.slider-text h2{
-    font-size: clamp(3.5rem, 3.0102rem + 2.449vw, 5rem);
-    font-weight: bold;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.388);
-    -webkit-text-fill-color: transparent;  
-    
-}
 
 @media (max-width: 1023px) {
 
@@ -297,6 +267,7 @@ nav{
     min-width: 150px;
     height: 1px;
 }
+
 
 .hakkimda-sec-text .title h3, .port-title h3, .iletisim-title h3{
     font-size: 2.5rem;
@@ -612,3 +583,4 @@ footer p{
   background-color: var(--secondary);
   color: var(--primary);
 }
+
