@@ -6,11 +6,6 @@
     --red: #ed2024;
     --paragraphs: #1E1E1E;
 }
-.dark-mode {
-	background: #19191A;
-	color: #D5DEEC;
-	transition: .2s !important;
-}
 ::-webkit-scrollbar{
   width: .5rem;
   padding: 0 .1rem;
